@@ -1,7 +1,7 @@
 .nav {
   background-color: #0e3249;
   height: 10vh;
-  padding: 1rem;
+  padding: 1rem 0.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -20,3 +20,15 @@
   margin-right: 1rem;
   text-decoration: none;
 }
+
+.subTitle {
+  font-size: 0.7rem;
+}
+
+.subTitle:hover {
+  font-size: 0.8rem;
+  text-decoration: underline;
+  background-color: #575757;
+  border-radius: 10px;
+}
+

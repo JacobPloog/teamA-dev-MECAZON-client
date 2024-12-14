@@ -6,7 +6,7 @@ export default function GroceryList({ items }) {
       {items.map((i) => (
         <div key={i.id} className={styles.item}>
           <img src="" alt="" className={styles.img} />
-          <h2>{i.name}</h2>
+          <h2 className={styles.header}>{i.name}</h2>
           <p>Category: {i.category}</p>
           <p>Price: {i.price}</p>
         </div>

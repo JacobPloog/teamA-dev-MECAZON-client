@@ -26,7 +26,7 @@ export default function Groceries() {
   }, [groceries]);
   return (
     <div>
-      <h1 className={styles.font}>Result of Search:</h1>
+      <h1 className={styles.title}>Result of Search:</h1>
       <GroceryList items={groceries} />
     </div>
   );

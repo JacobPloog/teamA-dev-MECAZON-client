@@ -4,7 +4,7 @@ import styles from "../styles/Catagories.module.css";
 export default function Catagories() {
   return (
     <nav>
-      <ul className="navbar">
+      <ul className={styles.nav}>
         <li>
           <a href="#">Furniture</a>
         </li>
