@@ -3,31 +3,37 @@ import { Link } from "react-router-dom";
 import SearchBar from "./SearchBar.jsx";
 import Catagories from "./Catagories.jsx";
 import LogoLG from "./LogoLG.jsx";
+import LogoMD from "./LogoMD.jsx";
 import Signup from "./Signup.jsx";
 import Cart from "./Cart.jsx";
-import Box from "./Box.jsx"
+import Box from "./Box.jsx";
+import Menu from "./Menu"
 
 export default function Navbar() {
   return (
     <>
       <nav className={styles.nav}>
         <Link to="/" className={styles.link}>
+          <p className={styles.subTitle}>
           <LogoLG />
+          {/* <LogoMD /> */}
+          {/* <Menu/> */}
+          </p>
         </Link>
-        <Link to="/" className={styles.link}>
+        <Link to="/products" className={styles.link}>
           <p className={styles.subTitle}>
         <Box />
             Products
             </p>
         </Link>
         <SearchBar />
-        <Link to="/" className={styles.link}>
+        <Link to="/cart" className={styles.link}>
           <p className={styles.subTitle}>
           <Cart />
             Cart
             </p>
         </Link>
-        <Link to="/" className={styles.link}>
+        <Link to="/sign-up" className={styles.link}>
           <p className={styles.subTitle}>
           <Signup />
             Sign-up

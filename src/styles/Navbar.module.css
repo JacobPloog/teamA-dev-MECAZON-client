@@ -5,10 +5,15 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: "Roboto", sans-serif;
+  /* font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-style: normal;
-  font-size: 1.5rem;
+  font-size: 1.5rem; */
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
 }
 
 .link {
@@ -23,12 +28,15 @@
 
 .subTitle {
   font-size: 0.7rem;
+  padding-top: 10%;
+  filter: drop-shadow( 6px 6px 5px rgba(0, 0, 0, 0.5));
 }
 
 .subTitle:hover {
-  font-size: 0.8rem;
+  /* font-size: 0.8rem; */
   text-decoration: underline;
-  background-color: #575757;
   border-radius: 10px;
+  padding-top: 5%;
+  filter: drop-shadow( 6px 6px 5px rgba(0, 0, 0, 1));
 }
 
