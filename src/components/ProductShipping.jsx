@@ -1,4 +1,2 @@
-import styles from "../pages/styles/Product.jsx";
-export default function ProductShipping() {
-
-}
+import styles from "../styles/Product.css";
+export default function ProductShipping() {}

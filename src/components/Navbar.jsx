@@ -7,7 +7,7 @@ import LogoMD from "./LogoMD.jsx";
 import Signup from "./Signup.jsx";
 import Cart from "./Cart.jsx";
 import Box from "./Box.jsx";
-import Menu from "./Menu"
+// import Menu from "./Menu";
 
 export default function Navbar() {
   return (
@@ -15,29 +15,27 @@ export default function Navbar() {
       <nav className={styles.nav}>
         <Link to="/" className={styles.link}>
           <p className={styles.subTitle}>
-          <LogoLG />
-          {/* <LogoMD /> */}
-          {/* <Menu/> */}
+            <LogoLG />
           </p>
         </Link>
         <Link to="/products" className={styles.link}>
           <p className={styles.subTitle}>
-        <Box />
+            <Box />
             Products
-            </p>
+          </p>
         </Link>
         <SearchBar />
         <Link to="/cart" className={styles.link}>
           <p className={styles.subTitle}>
-          <Cart />
+            <Cart />
             Cart
-            </p>
+          </p>
         </Link>
         <Link to="/sign-up" className={styles.link}>
           <p className={styles.subTitle}>
-          <Signup />
+            <Signup />
             Sign-up
-            </p>
+          </p>
         </Link>
       </nav>
 

@@ -7,10 +7,11 @@ export default function GroceryList({ items }) {
       {items.map((i) => (
         <div key={i.id} className={styles.item}>
           <Link to="/product" className={styles.link}>
-          <h2 className={styles.header}>{i.name}</h2>
+            <img src={i.imgSrc} alt="" className={styles.img} />
+            <h2>{i.item}</h2>
+            <p>Category: {i.category}</p>
+            <p>Price: {i.price_in_usd}</p>
           </Link>
-          <p>Category: {i.category}</p>
-          <p>Price: {i.price}</p>
         </div>
       ))}
     </div>

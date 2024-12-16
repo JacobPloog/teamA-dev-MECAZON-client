@@ -27,9 +27,11 @@
 }
 
 .subTitle {
+  display: flex;
+  flex-direction: column;
   font-size: 0.7rem;
   padding-top: 10%;
-  filter: drop-shadow( 6px 6px 5px rgba(0, 0, 0, 0.5));
+  filter: drop-shadow(6px 6px 5px rgba(0, 0, 0, 0.5));
 }
 
 .subTitle:hover {
@@ -37,6 +39,9 @@
   text-decoration: underline;
   border-radius: 10px;
   padding-top: 5%;
-  filter: drop-shadow( 6px 6px 5px rgba(0, 0, 0, 1));
+  filter: drop-shadow(6px 6px 5px rgba(0, 0, 0, 1));
 }
 
+/* Medium screens (tablets, 768px and up) */
+@media (max-width: 1024px) {
+}
